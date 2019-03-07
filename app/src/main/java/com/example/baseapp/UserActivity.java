@@ -42,7 +42,7 @@ public class UserActivity extends AppCompatActivity {
 
                     User user = new User(userName.getText().toString(), userPassword.getText().toString());
 
-                    Intent intent = new Intent(UserActivity.this, MainActivity.class);
+                    Intent intent = new Intent(UserActivity.this, DrawerActivity.class);
                     intent.putExtra("NOME", user.getNome());
                     startActivityForResult(intent, REQUEST_CODE );
 
