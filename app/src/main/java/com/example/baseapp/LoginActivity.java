@@ -121,15 +121,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
             }
         });
-
-//        FloatingActionButton fabUser = findViewById(R.id.fabUser);
-//        fabUser.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(LoginActivity.this, UserActivity.class);
-//                startActivityForResult(intent, REQUEST_CODE );
-//            }
-//        });
     }
 
     private void populateAutoComplete() {
